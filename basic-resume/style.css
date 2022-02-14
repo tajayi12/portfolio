@@ -16,14 +16,17 @@ body {
 	margin: 0 auto;
 }
 
-img{
+img {
 	display: none;
 }
 
-b{
+#title {
 	text-transform: uppercase;
 	font-size: 1.5em;
 	color: #33485e;
+	font-weight: 600;
+	text-align: center;
+	margin: 20px 0 0 0;
 }
 
 .sectionheader {
@@ -75,4 +78,11 @@ ul li{
 
 #do {
 	margin: 5px 0 0 0;
+}
+
+#container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-bottom:  50px;
 }

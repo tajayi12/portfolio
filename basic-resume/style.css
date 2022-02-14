@@ -37,22 +37,42 @@ b{
 	min-width: 300px;
 }
 
-h3{
+.jobtitle {
 	font-weight: 600;
 	font-size: 1.5em;
+
 }
 
-h4{
+.organization {
 	font-weight: 400;
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 
-h5{
+.date {
 	font-weight: 400;
 	font-size: 1em;
 	font-style: italic;
+	margin-top: 2px;
 }
 
 ul li{
 	font-size: 1em;
+}
+
+.menu {
+	margin: 0px;
+	padding:  0px;
+	text-align: center;
+}
+
+.menu li {
+	display: inline;
+}
+
+#degrees {
+	margin:  5px 0 0 0;
+}
+
+#do {
+	margin: 5px 0 0 0;
 }

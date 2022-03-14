@@ -2,3 +2,49 @@
 	margin: 0 auto;
 	width: 900px;
 }
+
+#masthead {
+	text-align: center;
+}
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+}
+
+p {
+	font-family: Georgia, serif;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+blockquote {
+	font-size: 2em;
+	color: white;
+	background-color: black;
+	padding: 5px;
+	text-align: center;
+}
+
+.images {
+	text-align: center;
+}
+
+.images figcaption{
+	color: grey;
+	font-style: italic;
+	font-size: 10px;
+}
+
+.graphic {
+	text-align: center;
+}
+.graphic figcaption{
+	color: grey;
+	font-style: italic;
+	font-size: 10px;

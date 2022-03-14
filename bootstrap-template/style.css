@@ -36,8 +36,20 @@
 	margin: 5px 0 0 0;
 }
 
-.cardtext {
+.card-text-headline {
 	font-weight: bold;
+	text-align: center;
 }
 
+.card-text {
+	text-align: center;
+	font-weight: lighter;
+}
 
+.lead {
+	text-align: center;
+}
+
+.px-3 {
+	text-align: center;
+}

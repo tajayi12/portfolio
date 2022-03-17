@@ -8,7 +8,10 @@
 	Width: 100%;
 }
 
-
+.navbar-brand {
+	font-family: 'League Gothic', sans-serif;
+	font-size:  2em;
+}
 
 .sectionheader {
 	font-size: 2em;
@@ -22,59 +25,69 @@
 }
 
 h1 {
+	font-family: 'League Gothic', sans-serif;
+	font-size: 4em;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+p {
+	font-weight: 100;
+	font-size: 1em;
+	margin-top: 2px;
 	font-family: 'Helvetica', sans-serif;
 }
-
-
 .btn-outline-primary {
-	color: red;
-	border-color: red;
+	color: black;
+	border-color: white;
+	font-family: League Gothic, sans-serif;
+	font-size: 1.2em;
 }
 .btn-secondary {
-	background-color: red;
+	background-color: black;
 
 }
 .jobtitle {
-	font-weight: 600;
-	font-size: 1.25em;
-
+	font-weight: 300;
+	font-size: 1.75em;
+	font-family: 'League Gothic', sans-serif;
 }
 
 .organization {
-	font-weight: 400;
-	font-size: 1.5em;
+	font-weight: 200;
+	font-size: 1.25em;
+	font-family: 'Helvetica', sans-serif;
 }
 
 .date {
-	font-weight: 400;
+	font-weight: 100;
 	font-size: 1em;
 	font-style: italic;
 	margin-top: 2px;
+	font-family: 'Helvetica', sans-serif;
 }
 
 
 #degrees {
 	margin:  5px 0 0 0;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 100;
 }
 
-#do {
-	margin: 5px 0 0 0;
+ul {
+	margin: 5px 0 0 0 0;
+	font-weight: 150;
 }
 
 .card-text-headline {
-	font-weight: bold;
+	font-size: 1.5em;
 	text-align: center;
+	font-family: League Gothic, sans-serif;
 }
 
 .card-text {
 	text-align: center;
 	font-weight: lighter;
+	font-family: 'Helvetica', sans-serif;
 }
 
-.lead {
-	text-align: center;
-}
-
-.px-3 {
-	text-align: center;
-}

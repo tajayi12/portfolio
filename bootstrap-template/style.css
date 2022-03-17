@@ -1,3 +1,8 @@
+.content {
+	margin: 0 auto;
+	width: 1000px;
+}
+
 .sectionheader {
 	font-size: 2em;
 	text-transform: uppercase;
@@ -9,6 +14,27 @@
 	font-family: 'League Gothic', sans-serif;
 }
 
+h1 {
+	font-family: 'Helvetica', sans-serif;
+}
+
+.masthead-brand {
+	text-align: left;
+	font-family: "League Gothic", sans-serif;
+	text-transform: uppercase;
+	font-size:  4em;
+	color: red; 
+}
+
+
+.btn-outline-primary {
+	color: red;
+	border-color: red;
+}
+.btn-secondary {
+	background-color: red;
+
+}
 .jobtitle {
 	font-weight: 600;
 	font-size: 1.25em;

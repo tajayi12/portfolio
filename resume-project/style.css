@@ -52,10 +52,11 @@ p {
 }
 .btn-outline-primary {
 	background-color: #d3c4be;
-	font-color: white;
 	border-color: white;
 	font-family: League Gothic, sans-serif;
 	font-size: 1.2em;
+	color: #5C4033;
+	text-transform: uppercase;
 }
 .btn-secondary {
 	background-color: #d3c4be;
@@ -95,6 +96,11 @@ ul {
 
 .card-text {
 	text-align: center;
+	font-weight: lighter;
+	font-family: 'Helvetica', sans-serif;
+}
+
+.text-muted {
 	font-weight: lighter;
 	font-family: 'Helvetica', sans-serif;
 }

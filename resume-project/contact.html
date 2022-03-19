@@ -15,6 +15,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="css/mdb.css">
 </head>
 
 <body>
@@ -37,32 +38,96 @@
   </div>
   </nav>
 
-<!--This is the email section-->
+<!--This is the email section copy-->
   <div class="container col-xl-10 col-xxl-8 px-4 py-5">
     <div class="row align-items-center g-lg-5 py-5">
       <div class="col-lg-7 text-center text-lg-start">
         <h1 class="display-4 fw-bold lh-1 mb-3">Email Me</h1>
         <p class="col-lg-10 fs-4">Let me know what you think of my work!</p>
       </div>
-      <div class="col-md-10 mx-auto col-lg-5">
-        <form class="p-4 p-md-5 border rounded-3 bg-light">
-          <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Subject</label>
-          </div>
-          <div class="form-floating mb-3">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Type your email</label>
-          </div>
-          <div class="checkbox mb-3">
-      
-          </div>
-          <button class="w-100 btn btn-lg btn-primary" type="submit">Send</button>
-          <hr class="my-4">
-        </form>
-      </div>
-    </div>
-  </div>
+
+
+<!--This is the contact me form-->
+  <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-8 col-xl-9">
+                    <form id ="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form">
+                                    <div class="md-form">
+                                        <input type="text" id="name" name="name" class="form-control">
+                                        <label for="name" class="">Your name</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form">
+                                    <div class="md-form">
+                                        <input type="text" id="email" name="email" class="form-control">
+                                        <label for="email" class="">Your email</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-5">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" style="width: 700px" class="lg-textarea"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                    </form>
+
+                    <div class="center-on-small-only">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+                </div>
+               
+                <div class="col-md-4 col-xl-3">
+                    <ul class="contact-icons">
+                        <li><i class="fa fa-map-marker fa-2x"></i>
+                            <p>Ellicott City, MD & College Park, MD</p>
+                        </li>
+
+                        <li><i class="fa fa-envelope fa-2x"></i>
+                            <p>tolulopefajayi@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+              
+            </div>
 
   <!--This is the footer-->
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">

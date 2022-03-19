@@ -24,7 +24,7 @@ body {
 .sectionheader {
 	font-size: 2em;
 	text-transform: uppercase;
-	color: black;
+	color: #1b0000;
 	font-weight: 400;
 	margin: 20px 0 10px;
 	width:  70%;
@@ -37,6 +37,7 @@ h1 {
 	font-size: 4em;
 	font-weight: 100;
 	text-transform: uppercase;
+	color: #1b0000;
 }
 
 p {
@@ -44,6 +45,7 @@ p {
 	font-size: 1em;
 	margin-top: 2px;
 	font-family: 'Helvetica', sans-serif;
+	color: #1b0000;
 }
 
 .album {
@@ -55,23 +57,26 @@ p {
 	border-color: white;
 	font-family: League Gothic, sans-serif;
 	font-size: 1.2em;
-	color: #5C4033;
+	color: #1b0000;
 	text-transform: uppercase;
 }
 .btn-secondary {
 	background-color: #d3c4be;
+	color: #1b0000;
 
 }
 .jobtitle {
 	font-weight: 300;
 	font-size: 1.75em;
 	font-family: 'League Gothic', sans-serif;
+	color: #1b0000;
 }
 
 .organization {
 	font-weight: 200;
 	font-size: 1.25em;
 	font-family: 'Helvetica', sans-serif;
+	color: #1b0000;
 }
 
 .date {
@@ -80,6 +85,7 @@ p {
 	font-style: italic;
 	margin-top: 2px;
 	font-family: 'Helvetica', sans-serif;
+	color: #1b0000;
 }
 
 
@@ -92,20 +98,40 @@ ul {
 	font-size: 1.5em;
 	text-align: center;
 	font-family: League Gothic, sans-serif;
+	color: #1b0000;
 }
 
 .card-text {
 	text-align: center;
 	font-weight: lighter;
 	font-family: 'Helvetica', sans-serif;
+	color: #1b0000;
 }
+
+ .lead-text-muted {
+	font-weight: lighter;
+	font-size: 1.25em;
+	font-family: 'Helvetica', sans-serif;
+	color: #1b0000!important;
+}
+
 
 .text-muted {
 	font-weight: lighter;
 	font-family: 'Helvetica', sans-serif;
+	color: #1b0000!important;
 }
+
 
 textarea {
 	resize: vertical;
+    height: 100px;
+}
+
+label {
+	font-weight: lighter;
+	font-family: 'Helvetica', sans-serif;
+	color: #1b0000;
+
 }
 

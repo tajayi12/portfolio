@@ -40,8 +40,8 @@
 
 <!--This is the email section copy-->
   <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-    <div class="row align-items-center g-lg-5 py-5">
-      <div class="col-lg-7 text-center text-lg-start">
+    <div class="g-lg-5 py-5">
+      <div class="col-lg-7 text-lg-start">
         <h1 class="display-4 fw-bold lh-1 mb-3">Email Me</h1>
         <p class="col-lg-10 fs-4">Let me know what you think of my work!</p>
       </div>
@@ -61,8 +61,8 @@
                             <div class="col-md-6">
                                 <div class="md-form">
                                     <div class="md-form">
+                                        <label for="name">Your name</label>
                                         <input type="text" id="name" name="name" class="form-control">
-                                        <label for="name" class="">Your name</label>
                                     </div>
                                 </div>
                             </div>
@@ -72,8 +72,9 @@
                             <div class="col-md-6">
                                 <div class="md-form">
                                     <div class="md-form">
-                                        <input type="text" id="email" name="email" class="form-control">
-                                        <label for="email" class="">Your email</label>
+                                      <label for="email" class="">Your email</label>
+                                      <input type="text" id="email" name="email" class="form-control">
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -86,8 +87,9 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="md-form">
-                                    <input type="text" id="subject" name="subject" class="form-control">
                                     <label for="subject" class="">Subject</label>
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                   
                                 </div>
                             </div>
                         </div>
@@ -97,11 +99,10 @@
                         <div class="row">
 
                             <!--Grid column-->
-                            <div class="col-md-5">
 
                                 <div class="md-form">
-                                    <textarea type="text" id="message" name="message" style="width: 700px" class="lg-textarea"></textarea>
                                     <label for="message">Your message</label>
+                                    <textarea cols="120" style="max-width:100%;"></textarea>
                                 </div>
 
                             </div>
@@ -111,22 +112,10 @@
                     </form>
 
                     <div class="center-on-small-only">
-                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                        <a class="btn btn-secondary" onclick="document.getElementById('contact-form').submit("mail.php)>Send</a>
                     </div>
                 </div>
-               
-                <div class="col-md-4 col-xl-3">
-                    <ul class="contact-icons">
-                        <li><i class="fa fa-map-marker fa-2x"></i>
-                            <p>Ellicott City, MD & College Park, MD</p>
-                        </li>
-
-                        <li><i class="fa fa-envelope fa-2x"></i>
-                            <p>tolulopefajayi@gmail.com</p>
-                        </li>
-                    </ul>
-                </div>
-              
+              </div>
             </div>
 
   <!--This is the footer-->

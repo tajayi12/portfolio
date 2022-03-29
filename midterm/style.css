@@ -5,6 +5,7 @@ body {
 #content {
 	margin: 0 auto;
 	width: 90%;
+	padding-bottom: 5px;
 }
 
 #byline {
@@ -45,7 +46,7 @@ p {
 
 .smallimages img
 {
-	max-height: 550px;
+	max-height: 500px;
 	text-align: center;
 }
 

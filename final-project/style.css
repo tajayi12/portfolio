@@ -1,17 +1,27 @@
 
 #masthead {
-	
+	text-align: center;
 }
 
 #byline {
 	font-family: 'Hind Siliguri', Arial, sans-serif;
+	text-align: center;
+	font-size: 14px;
+	font-style: italic;
 }
 
 #content {
-
+	margin: 0 auto;
+	width: 90%;
+	padding-bottom: 5px;
 }
 
 h1{
 	font-family: 'Libre Bodoni', Georgia, serif;
+	text-align: center;
+}
+
+p {
+	font-family: 'Hind Siliguri', Arial, sans-serif;
 }
 

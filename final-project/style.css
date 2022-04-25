@@ -16,12 +16,19 @@
 	padding-bottom: 5px;
 }
 
+body {
+	background-color: #FAF9F6;
+}
+
 h1{
 	font-family: 'Libre Bodoni', Georgia, serif;
 	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
 }
 
 p {
 	font-family: 'Hind Siliguri', Arial, sans-serif;
+	font-size: 16px;
 }
 

@@ -1,6 +1,19 @@
-
 #masthead {
 	text-align: center;
+}
+.navbar
+{
+	background-color: #e54113;
+	border: white;
+}
+.navbar-brand {
+	font-family: 'Hind Siliguri', Arial, sans-serif;
+	font-size:  2em;
+	}
+
+.navbar-nav {
+	font-family: 'Hind Siliguri', Arial, sans-serif;
+	font-size:  1em;
 }
 
 #byline {
@@ -12,8 +25,19 @@
 
 #content {
 	margin: 0 auto;
-	width: 90%;
+	width: 75%;
 	padding-bottom: 5px;
+}
+
+#related-links{
+	font-family: 'Hind Siliguri', Arial, sans-serif;
+	font-size: 18px;
+}
+
+h3 {
+	font-family: 'Libre Bodoni', Georgia, serif;
+	font-size: 28px;
+	font-weight: 500;
 }
 
 body {
@@ -46,6 +70,7 @@ blockquote {
 	background-color: #ca0000;
 	padding: 5px;
 	text-align: center;
+ 
 	
 
 
